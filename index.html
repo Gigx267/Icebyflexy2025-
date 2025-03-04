@@ -54,10 +54,6 @@
     <p class="text">ICEBYFLEXZY </p>
   </div>
 
-
-
-
-
   <!-- 
     - #TOP BAR
   -->
@@ -96,14 +92,8 @@
 
       <div class="separator"></div>
 
-      
-
     </div>
   </div>
-
-
-
-
 
   <!-- 
     - #HEADER
@@ -111,8 +101,6 @@
 
   <header class="header" data-header>
     <div class="container">
-
-   
 
       <nav class="navbar" data-navbar>
 
@@ -208,10 +196,6 @@
     </div>
   </header>
 
-
-
-
-
   <main>
     <article>
       <!-- 
@@ -225,7 +209,7 @@
           <li class="slider-item active" data-hero-slider-item>
     
             <div class="slider-bg">
-              <video autoplay muted loop class="video-bg">
+              <video autoplay muted loop playsinline class="video-bg">
                 <source src="j (1).mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -252,7 +236,7 @@
           <li class="slider-item" data-hero-slider-item>
     
             <div class="slider-bg">
-              <video autoplay muted loop class="video-bg">
+              <video autoplay muted loop playsinline class="video-bg">
                 <source src="j (2).mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -279,7 +263,7 @@
           <li class="slider-item" data-hero-slider-item>
     
             <div class="slider-bg">
-              <video autoplay muted loop class="video-bg">
+              <video autoplay muted loop playsinline class="video-bg">
                 <source src="j (3).mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -333,10 +317,6 @@
 }
 
     </style>
-
-
-
-
 
       <!-- 
         - #SERVICE
@@ -434,10 +414,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #ABOUT
       -->
@@ -465,10 +441,8 @@
             <div class="contact-label">Book Through Call</div>
 
             <a href="tel:+804001234567" class="body-1 contact-number hover-underline">
-
-    
-              
-              +234 810 348 9560 </a>
+              +234 810 348 9560 
+            </a>
 
             <a href="contact.html" class="btn btn-primary">
               <span class="text text-1">Contact Us </span>
@@ -488,8 +462,6 @@
                 class="w-100">
             </div>
 
-          
-
           </figure>
 
           <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
@@ -497,11 +469,6 @@
         </div>
       </section>
 
-
-
-
-
-      
   <!-- 
     - custom js link
   -->
@@ -520,7 +487,9 @@
     document.addEventListener('DOMContentLoaded', function() {
       const videos = document.querySelectorAll('.video-bg');
       videos.forEach(video => {
-        video.play();
+        video.play().catch(error => {
+          console.error('Error attempting to play video:', error);
+        });
       });
     });
   </script>
