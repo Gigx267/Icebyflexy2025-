@@ -1,446 +1,838 @@
-Grilli - Amazing & Delicious Food
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ICEBYFLEXZY </title>
+  <meta name="title" content=" DIAMOND, MOISSONITE💎
+  High Quality Premium 𝐌𝐀𝐋𝐄 & 𝐅𝐄𝐌𝐀𝐋𝐄 jewelries
+  Luxury Costume Jewelry & 𝐖𝐀𝐓𝐂𝐇𝐄𝐒 ">
+  <meta name="description" content="DIAMOND, MOISSONITE💎
+  High Quality Premium 𝐌𝐀𝐋𝐄 & 𝐅𝐄𝐌𝐀𝐋𝐄 jewelries
+  Luxury Costume Jewelry & 𝐖𝐀𝐓𝐂𝐇𝐄𝐒  ">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="LOGO.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">ICEBYFLEXZY </p>
+  </div>
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          RVS Mall , 3rd Avenue Gwarimpa
+          Abuja, Nigeria
+        </span>
+      </address>
 
-This is a Restaurant html template made by codewithsadee
+      <div class="separator"></div>
 
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
 
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
 
-#---------- TOP BAR ----------#
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
 
-<ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-Restaurant St, Delicious City, London 9578, UK
+        <span class="span"> +234902148764 </span>
+      </a>
 
-<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-Daily : 8.00 am to 10.00 pm
+      <div class="separator"></div>
 
-<ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-+1 123 456 7890
+    </div>
+  </div>
 
-<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-booking@restaurant.com
+  <!-- 
+    - #HEADER
+  -->
 
+  <header class="header" data-header>
+    <div class="container">
 
+      <nav class="navbar" data-navbar>
 
-#---------- HEADER ----------#
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
 
-alt = Grilli - Home
+        <a href="#" class="logo">
+          <img style="height: 1.5cm;width: 1.8cm;opacity: 30%;" src="LOGO.png" width="160" height="50" alt="Grilli - Home">
+        </a>
 
-aria-label = close menu
-<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        <ul class="navbar-list">
 
-Home
-Menus
-About Us
-Our Chefs
-Contact
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
 
-Visit Us
-
-Restaurant St, Delicious City,
-London 9578, UK
-
-Open: 9.30 am - 2.30pm
-
-booking@grilli.com
-
-Booking Request
-+88-123-123456
-
-Find A Table
-
-aria-label = open menu
-
-
-
-#---------- HERO ----------#
-
-Tradational & Hygine
-
-For the love of
-delicious food
-
-Come with family & feel the joy of mouthwatering food
-
-View Our Menu
-
-delightful experience
-
-Flavors Inspired by
-the Seasons
-
-amazing & delicious
-
-Where every flavor
-tells a story
-
-aria-label = slide to previous
-<ion-icon name="chevron-back"></ion-icon>
-
-aria-label = slide to next
-<ion-icon name="chevron-forward"></ion-icon>
-
-alt = booking icon
-
-Book A Table
-
-
-
-#---------- SERVICE ----------#
-
-Flavors For Royalty
-
-We Offer Top Notch
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.
-
-alt = Breakfast
-
-Breakfast
-View Menu
-
-Appetizers
-
-Drinks
-
-alt = shape
-
-
-
-#---------- ABOUT ----------#
-
-Our Story
-
-Every Fla vor Tells a Story
-
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.
-
-Book Through Call
-
-+80 (400) 123 4567
-
-Read More
-
-alt = about banner
-
-
-
-#---------- SPECIAL DISH ----------#
-
-alt = special dish
-
-alt = badge
-
-Special Dish
-
-Lobster Tortellini
-
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.
-
-$40.00
-$20.00
-
-View All Menu
-
-
-
-#---------- MANU ----------#
-
-Special Selection
-
-Delicious Menu
-
-1.
-alt = Greek Salad
-Greek Salad
-
-Seasonal
-$25.50
-Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
-
-2.
-alt = Lasagne
-Lasagne
-
-$40.00
-Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-
-3.
-alt = Butternut Pumpkin
-Butternut Pumpkin
-
-$10.00
-Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
-
-4.
-alt = Tokusen Wagyu
-Tokusen Wagyu
-
-New
-$39.00
-Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
-
-5.
-alt = Olivas Rellenas
-Olivas Rellenas
-
-$25.00
-Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
-
-6.
-alt = Opu Fish
-Opu Fish
-
-$49.00
-Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-
-During winter daily from 7:00 pm to 9:00 pm
-
-View All Menu
-
-
-
-#---------- TESTIMONIALS ----------#
-
-”
-I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.
-
-alt = Sam Jhonson
-Sam Jhonson
-
-
-
-#---------- RESERVATION ----------#
-
-Online Reservation
-
-Booking request
-+88-123-123456
-or fill out the order form
-
-placeholder = Your Name
-placeholder = Phone Number
-
-<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-1 Person
-2 Person
-3 Person
-4 Person
-5 Person
-6 Person
-7 Person
-
-<ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-
-<ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-
-<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-08 : 00 am
-<ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-
-placeholder = Message
-
-Book A Table
-
-Contact Us
-
-Booking Request
-
-+88-123-123456
-
-Location
-
-Restaurant St, Delicious City,
-London 9578, UK
-
-Lunch Time
-
-Monday to Sunday
-11.00 am - 2.30pm
-
-Dinner Time
-
-Monday to Sunday
-05.00 pm - 10.00pm
-
-
-
-#---------- FEATURES ----------#
-
-Why Choose Us
-
-Our Strength
-
-alt = icon
-
-Hygienic Food
-Lorem Ipsum is simply dummy printing and typesetting.
-
-Fresh Environment
-
-Skilled Chefs
-
-Event & Party
-
-
-
-#---------- EVENT ----------#
-
-Recent Updates
-
-Upcoming Event
-
-alt = Flavour so good you’ll try to eat with your eyes.
-
-15/09/2022
-Food, Flavour
-Flavour so good you’ll try to eat with your eyes.
-
-08/09/2022
-Healthy Food
-
-03/09/2022
-Recipie
-
-View Our Blog
-
-
-
-#---------- FOOTER ----------#
-
-alt = grilli home
-
-Restaurant St, Delicious City, London 9578, UK
-
-booking@grilli.com
-
-Booking Request : +88-123-123456
-
-Open : 09:00 am - 01:00 pm
-
-Get News & Offers
-
-Subscribe us & Get 25% Off.
-
-<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-
-placeholder = Your email
-
-Subscribe
-
-Home
-Menus
-About Us
-Our Chefs
-Contact
-
-Facebook
-Instagram
-Twitter
-Youtube
-Google Map
-
-&copy; 2022 Grilli. All Rights Reserved | Crafted by
-
-https://github.com/codewithsadee
-
-codewithsadee
-
-
-
-#---------- BACK TO TOP ----------#
-
-aria-label = back to top
-
-<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-
-
-
-#---------- MENU PAGE ----------#
-
-
-Delicious & Amazing
-Our Menu
-
-Special Offer
-Best Special Menu
-
-alt = Greek Salad
-Greek Salad
-Avocados with crab meat, red onion, crab salad red bell pepper...
-$39.00
-
-alt = Tokusen Wagyu
-Tokusen Wagyu
-Tomatoes, green bell pepper, sliced cucumber onion, olives...
-$45.00
-
-alt = Butternut Pumpkin
-Butternut Pumpkin
-Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-$15.00
-
-alt = Opu Fish
-Opu Fish
-Vegetables, cheeses, ground meats, tomato sauce, seasonings...
-$12.00
-
-alt = Greek Salad
-Greek Salad
-Avocados with crab meat, red onion, crab salad red bell pepper...
-$39.00
-
-alt = Tokusen Wagyu
-Tokusen Wagyu
-Tomatoes, green bell pepper, sliced cucumber onion, olives...
-$45.00
-
-alt = Butternut Pumpkin
-Butternut Pumpkin
-Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-$15.00
-
-alt = Opu Fish
-Opu Fish
-Vegetables, cheeses, ground meats, tomato sauce, seasonings...
-$12.00
-
-
-alt = feature banner
-
-Chef Selection
-Lobster Tortellini
-
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since.
-
-$40.00
-$20.00
-
-
-
-#---------- MENU PAGE ----------#
-
-Our Story
-About Us
-
-Who We Are
-
-A modern restaurant with a menu that will make your mouth water. Servicing delicious food 
-since 45 years.
-Enjoy our seasonal menu and experience the beauty of naturalness
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived.
-
-Andrew Joe - Founder
-
-Lunch Time
-Monday to Sunday
-11.00 am - 2.30pm
-
-Dinner Time
-Monday to Sunday
-5.30 pm - 11.30 pm
-
-Contact Us
-Restaurant St, Delicious City, London 9578, UK
-
-+88-123-123456
-reservation@restro.com
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us </span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="collection.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span"> Our Collection </span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="Booking.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Book Appiontment </span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            RVS Mall , 3rd Avenue Gwarimpa
+Abuja, Nigeria
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+        
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+234 810 348 9560" class="body-1 contact-number hover-underline">
+            +234 810 348 9560
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="https://www.instagram.com/icebyflexzy/ " class="btn btn-secondary">
+        <span class="text text-1"> Follow Us </span>
+
+        <span class="text text-2" aria-hidden="true">Book Through Call </span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
+            - #HERO
+          -->
+    
+      <section class="hero text-center" aria-label="home" id="home">
+    
+        <ul class="hero-slider" data-hero-slider>
+    
+          <li class="slider-item active" data-hero-slider-item>
+    
+            <div class="slider-bg">
+              <video autoplay muted loop playsinline class="video-bg">
+                <source src="j (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+    
+            <p class="label-2 section-subtitle slider-reveal"> ICEBYFLEXZY </p>
+    
+            <h2 class="display-1 hero-title slider-reveal">
+              Costume Jewelry and Luxury Watches
+            </h2>
+    
+            <p class="body-2 hero-text slider-reveal">
+    
+            </p>
+    
+            <a href="./contact.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Contact Us </span>
+    
+              <span class="text text-2" aria-hidden="true">Contact Us </span>
+            </a>
+    
+          </li>
+    
+          <li class="slider-item" data-hero-slider-item>
+    
+            <div class="slider-bg">
+              <video autoplay muted loop playsinline class="video-bg">
+                <source src="j (2).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+    
+            <p class="label-2 section-subtitle slider-reveal"> Destination for luxury watches </p>
+    
+            <h1 class="display-1 hero-title slider-reveal">
+              Nigeria's legacy of luxury
+            </h1>
+    
+            <p class="body-2 hero-text slider-reveal">
+              Diamond pieces are crafted with unmatched quality and brilliance
+            </p>
+    
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Visit Us </span>
+    
+              <span class="text text-2" aria-hidden="true"> Visit Us</span>
+            </a>
+    
+          </li>
+    
+          <li class="slider-item" data-hero-slider-item>
+    
+            <div class="slider-bg">
+              <video autoplay muted loop playsinline class="video-bg">
+                <source src="j (3).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+    
+            <p class="label-2 section-subtitle slider-reveal">amazing & unmatched</p>
+    
+            <h1 class="display-1 hero-title slider-reveal">
+              Discover Statement Pieces
+            </h1>
+    
+            <p class="body-2 hero-text slider-reveal">
+              Complement your personal style and elevate your everyday look. stunning selection of both timeless classics and contemporary designs
+            </p>
+    
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Contact Us </span>
+    
+              <span class="text text-2" aria-hidden="true"> Contact Us</span>
+            </a>
+    
+          </li>
+    
+        </ul>
+    
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+    
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+    
+        <a href="contact.html" class="hero-btn has-after">
+          <img src="icons8-diamonds-64.png" width="48" height="48" alt="booking icon">
+    
+          <span class="label-2 text-center span"> Reach Us </span>
+        </a>
+    
+      </section>
+    </article>
+    <style> 
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+  .video-bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+}
+    </style>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2"> High Quality Premium Male & Female Jewelries</p>
+
+          <h2 class="headline-1 section-title">About Us </h2>
+
+          <p class="section-text">
+            Diamond pieces are crafted with unmatched quality and brilliance. We offer a range of premium costume jewelry and luxury watches. Discover statement pieces that complement your personal style and elevate your everyday look. stunning selection of both timeless classics and contemporary designs, ensuring you find the perfect pieces
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="b (5).jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Watches </a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2"></a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="n (2).jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Ear Rings </a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2"></a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="p4.webp" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Custom Makes  </a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2"></a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="icons8-diamonds-64.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title"> Discover a World of Luxurious Jewelry</h2>
+
+            <p class="section-text">
+              Our journey began with a vision to create a space where high value  individuals could discover
+               statement pieces that resonate with their personal style. We understand that every piece of 
+               jewelry tells a story, and we strive to curate a collection that embodies both timeless classics and 
+              contemporary designs, ensuring that you find the perfect expression of your individuality.
+              Located in the vibrant heart of Abuja at RVS Mall, 3rd Avenue Gwarimpa, our showroom provides a
+               welcoming  environment where you can explore our collection. Whether you're
+                seeking a  diamond necklace, a sophisticated luxury watch, 
+              or a stylish accessory to elevate your everyday look, our knowledgeable team is here to guide you.
+            </p>
+
+            <div class="contact-label">Book Through Call</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">
+              +234 810 348 9560 
+            </a>
+
+            <a href="contact.html" class="btn btn-primary">
+              <span class="text text-1">Contact Us </span>
+
+              <span class="text text-2" aria-hidden="true">Contact Us </span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="j (1).jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="b (1).jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+      <section class="section jewels bg-black-10" aria-label="jewels">
+        <div class="container">
+          <p class="section-subtitle label-2 text-center">Our Collection</p>
+          <h2 class="section-title headline-1 text-center">Featured Jewels</h2>
+          <ul class="grid-list">
+            
+            <!-- Instagram Reel 1 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DDAChDGx5AZ/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 2 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DFskisoMYnh/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 3 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DE2elK9sZ-r/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 4 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/C--fgkOM65c/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 5 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/C_piKhlsyhF/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 6 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DBG80QysHfS/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 7 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DB8zJn6MG-Y/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 8 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DCHmXEXsYn0/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 9 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DC683eSRz8-/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                  <h3 class="card-title title-2 text-center">AA Grade Hublot Leather</h3>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Instagram Reel 10 -->
+            <li class="grid-item">
+              <div class="jewel-card has-before hover:shine">
+                <div class="card-banner img-holder">
+                  <div class="instagram-reel">
+                    <iframe src="https://www.instagram.com/reel/DDJ4iGLRday/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"></p>
+                  <h3 class="card-title title-2 text-center">AA Grade Hublot Leather</h3>
+                </div>
+              </div>
+            </li>
+      
+          </ul>
+          <a href="https://www.instagram.com/icebyflexzy/" class="btn btn-primary">
+            <span class="text text-1">Follow Us</span>
+            <span class="text text-2" aria-hidden="true">View Online Collection</span>
+          </a>
+        </div>
+      </section>
+      
+      <!-- Add Instagram Embed Script -->
+      <script async src="//www.instagram.com/embed.js"></script>
+    
+      <style> 
+    
+        /* General Styles */
+    .section.jewels {
+      padding: 2rem;
+      background-color: #060606; /* Dark background for contrast */
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .grid-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 0;
+      list-style: none;
+    }
+    
+    
+    
+    .jewel-card {
+      position: relative;
+      background: #333;
+      border-radius: 15px;
+      overflow: hidden;
+      transform-style: preserve-3d;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    
+    
+    .card-banner {
+      position: relative;
+      padding-top: 120%; /* Adjust based on aspect ratio */
+    }
+    
+    .instagram-reel iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    
+    .card-content {
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    .btn-primary {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: #ff4757;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+      background-color: #ff6b81;
+    }
+      </style>
+     <footer class="footer section has-bg-image text-center"
+     style="background-image: url('./b\ \(7\).jpg')">
+     <div class="container">
+ 
+       <div class="footer-top grid-list">
+ 
+         <div class="footer-brand has-before has-after">
+ 
+           <a href="#" class="logo">
+             <img style="opacity: 30%;"  src="LOGO.png" width="160" height="50" loading="lazy" alt="grilli home">
+           </a>
+ 
+           <address class="body-4">
+             RVS Mall , 3rd Avenue Gwarimpa Abuja, Nigeria
+           </address>
+ 
+ 
+           <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +234902148764</a>
+ 
+           <p class="body-4">
+             Open : 09:00 am - 01:00 pm
+           </p>
+ 
+           <div class="wrapper">
+             <div class="separator"></div>
+             <div class="separator"></div>
+             <div class="separator"></div>
+           </div>
+ 
+     
+ 
+         
+ 
+           <form action="" class="input-wrapper">
+             <div class="icon-wrapper">
+               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+ 
+               <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+             </div>
+ 
+             <button type="submit" class="btn btn-secondary">
+               <span class="text text-1">Subscribe</span>
+ 
+               <span class="text text-2" aria-hidden="true">Subscribe</span>
+             </button>
+           </form>
+ 
+         </div>
+ 
+         <ul class="footer-list">
+ 
+           <li>
+             <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+           </li>
+ 
+          
+ 
+           <li>
+             <a href="about.html" class="label-2 footer-link hover-underline">About Us</a>
+           </li>
+ 
+           <li>
+             <a href="collection.html" class="label-2 footer-link hover-underline">Collection</a>
+           </li>
+ 
+           <li>
+             <a href="contact.html" class="label-2 footer-link hover-underline">Contact</a>
+           </li>
+ 
+         </ul>
+ 
+         <ul class="footer-list">
+ 
+           <li>
+             <a href="https://www.instagram.com/icebyflexzy/ " class="label-2 footer-link hover-underline">Facebook</a>
+           </li>
+ 
+           <li>
+             <a href=" https://www.instagram.com/icebyflexzy/" class="label-2 footer-link hover-underline">Instagram</a>
+           </li>
+ 
+           
+ 
+           <li>
+             <a href="https://www.google.com/maps/dir//icebyflexzy/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x104e091da1ab13d7:0x134f9a08d4b75ba2?sa=X&ved=1t:3061&ictx=111 " class="label-2 footer-link hover-underline">Google Map</a>
+           </li>
+ 
+         </ul>
+ 
+       </div>
+ 
+       <div class="footer-bottom">
+ 
+         <p class="copyright">
+           &copy; . ICEVYFLEXZY All Rights Reserved | Crafted by <a href="https://arcade.name.ng/"
+             target="_blank" class="link">Arcade </a>
+         </p>
+ 
+       </div>
+ 
+     </div>
+   </footer>
+ 
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- 
+    - custom js to ensure videos play
+  -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const videos = document.querySelectorAll('.video-bg');
+      videos.forEach(video => {
+        video.play().catch(error => {
+          console.error('Error attempting to play video:', error);
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
